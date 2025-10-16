@@ -9,38 +9,52 @@
     <title>4048</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <div class = "gameWrapper">
+        <div class = "game">
+          <div class = "game__control-panel">
+            <button class = "newGame btn">новая игра</button>
+            <div class="game__score">
+              <div class="score">current: <span class="current">1</span></div>
+              <div class="score">best: <span class="best">2</span></div>
+            </div>
+          </div>
+
     <!-- <script type="module" src="/src/main.js"></script> -->
-    <div class="game-field">
-      <div><h1>счет</h1></div>
-      <div><h1>лучший</h1></div>
-      <button>новая игра</button>
-      <div class="game-container">
-        <div class="grid-row">
-          <div class="grid-cell"></div>
-          <div class="grid-cell"></div>
-          <div class="grid-cell"></div>
-          <div class="grid-cell"></div>
-        </div>
-        <div class="grid-row">
-          <div class="grid-cell"></div>
-          <div class="grid-cell"></div>
-          <div class="grid-cell"></div>
-          <div class="grid-cell"></div>
-        </div>
-        <div class="grid-row">
-          <div class="grid-cell"></div>
-          <div class="grid-cell"></div>
-          <div class="grid-cell"></div>
-          <div class="grid-cell"></div>
-        </div>
-        <div class="grid-row">
-          <div class="grid-cell"></div>
-          <div class="grid-cell">scz x</div>
-          <div class="grid-cell">zvfs</div>
-          <div class="grid-cell">sdjv</div>
+          <div class="game-field">
+            <div class="game-container">
+              <div class="grid-row">
+                <div class="grid-cell"></div>
+                <div class="grid-cell"></div>
+                <div class="grid-cell"></div>
+                <div class="grid-cell"></div>
+              </div>
+              <div class="grid-row">
+                <div class="grid-cell"></div>
+                <div class="grid-cell"></div>
+                <div class="grid-cell"></div>
+                <div class="grid-cell"></div>
+              </div>
+              <div class="grid-row">
+                <div class="grid-cell"></div>
+                <div class="grid-cell"></div>
+                <div class="grid-cell"></div>
+                <div class="grid-cell"></div>
+              </div>
+              <div class="grid-row">
+                <div class="grid-cell"></div>
+                <div class="grid-cell">scz x</div>
+                <div class="grid-cell">zvfs</div>
+                <div class="grid-cell">sdjv</div>
+              </div>
+            </div>
+           <div class="game_tiles"><!--элемент внутри которого будут отображаться -->
+           </div>
+          </div>
         </div>
       </div>
+
     </div>
+    <script type="module" src="/src/main.js"></script>
   </body>
 </html>
